@@ -1,0 +1,31 @@
+{
+  "name": "react-native-template-jholdy",
+  "version": "1.0.3",
+  "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Native Navigation, Redux, Reduxsouce, Redux Saga, Reactotron e apisauce configurados.",
+  "keywords": [
+    "react-native",
+    "template",
+    "jholdy",
+    "eslint",
+    "react-native-navigation",
+    "react-native-navigation-hooks",
+    "react-native-vector-icons",
+    "reactotron",
+    "babel-root-import",
+    "apisauce",
+    "redux",
+    "redux-persist",
+    "@react-native-community/async-storage",
+    "reactotron-react-native",
+    "redux-saga",
+    "yup",
+    "formik"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jholdy/react-native-template.git"
+  },
+  "homepage": "https://github.com/jholdy/react-native-template#readme",
+  "author": "Jholdy Damasceno <jholdydamasceno@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "axios": "latest",
+  "prop-types": "latest",
+  "react-native-navigation": "latest",
+  "react-native-navigation-hooks": "latest",
+  "react-redux": "latest",
+  "reactotron-react-native": "latest",
+  "redux-persist": "latest",
+  "@react-native-community/async-storage": "latest",
+  "reactotron-redux": "latest",
+  "reactotron-redux-saga": "latest",
+  "redux": "latest",
+  "reduxsauce": "latest",
+  "react-native-vector-icons": "latest",
+  "redux-saga": "latest",
+  "seamless-immutable": "latest",
+  "styled-components": "latest",
+  "yup": "latest",
+  "formik": "latest"
+}
