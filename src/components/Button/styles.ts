@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
-import appColors from 'utils/appColors';
+import appColors from '../../utils/appColors';
 
-export const Container = styled.TouchableOpacity`
+export const Container = styled.TouchableOpacity<{isValid?: boolean;}>`
   height: 46px;
   background-color: ${props =>
     props.isValid ? appColors.primary : appColors.disable};

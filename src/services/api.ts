@@ -1,10 +1,8 @@
 import axios from 'axios';
 
-const baseURL = __DEV__ ? 'https://localhost/' : 'https://production.com/';
+const baseURL = __DEV__ ? 'http://localhost/' : 'https://production.com/';
 
-const api = axios.create({
-  baseURL,
-  timeout: 10000,
-});
+axios.defaults.baseURL = baseURL;
+const api = axios;
 
 export default api;

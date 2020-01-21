@@ -21,5 +21,9 @@
   "jest": "latest",
   "metro-react-native-babel-preset": "latest",
   "react-test-renderer": "latest",
-  "typescript": "latest"
+  "typescript": "latest",
+  "babel-plugin-module-resolver": "latest",
+  "babel-plugin-transform-optional-chaining": "latest",
+  "eslint-import-resolver-babel-plugin-root-import": "latest",
+  "eslint-plugin-import": "latest"
 }

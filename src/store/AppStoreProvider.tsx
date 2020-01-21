@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import configureStore from '.';
+import PropTypes from "prop-types";
 
 const { persistor, store } = configureStore();
 
@@ -29,9 +29,5 @@ class AppStoreProvider extends PureComponent {
     );
   }
 }
-
-AppStoreProvider.propTypes = {
-  children: PropTypes.shape({}).isRequired,
-};
 
 export default AppStoreProvider;

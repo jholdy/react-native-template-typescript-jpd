@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Platform } from 'react-native';
 import { Navigation } from 'react-native-navigation';
 
-import AppStoreProvider from 'store/AppStoreProvider';
+import AppStoreProvider from '../store/AppStoreProvider';
 
-import LoginScreen from 'screens/LoginScreen';
-import DashboardScreen from 'screens/DashboardScreen';
+import LoginScreen from '../screens/LoginScreen';
+import DashboardScreen from '../screens/DashboardScreen';
 
 export const isAndroid = Platform.OS === 'android';
 
-function WrapComponent(Component) {
-  return function inject(props) {
+function WrapComponent(Component: any) {
+  return function inject(props: any) {
     const EnhancedComponent = () => (
       <AppStoreProvider>
         <Component {...props} />

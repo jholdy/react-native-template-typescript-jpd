@@ -1,7 +1,7 @@
 {
   "name": "react-native-template-typescript-jpd",
-  "version": "1.0.0",
-  "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Native Navigation, Redux, Reduxsouce, Redux Saga, Reactotron e apisauce configurados.",
+  "version": "1.0.1",
+  "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Native Navigation, Redux, Reduxsouce, Redux Saga, Reactotron, axios configurados e typescript.",
   "keywords": [
     "react-native",
     "template",
@@ -12,14 +12,15 @@
     "react-native-vector-icons",
     "reactotron",
     "babel-root-import",
-    "apisauce",
+    "axios",
     "redux",
     "redux-persist",
     "@react-native-community/async-storage",
     "reactotron-react-native",
     "redux-saga",
     "yup",
-    "formik"
+    "formik",
+    "typescript"
   ],
   "repository": {
     "type": "git",

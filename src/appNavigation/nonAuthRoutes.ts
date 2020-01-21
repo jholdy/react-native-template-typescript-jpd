@@ -1,6 +1,6 @@
 import { Navigation } from 'react-native-navigation';
-import { appScreens } from 'appNavigation';
-import appColors from 'utils/appColors';
+import { appScreens } from '../appNavigation';
+import appColors from '../utils/appColors';
 
 const goLoginScreen = () => {
   Navigation.setRoot({

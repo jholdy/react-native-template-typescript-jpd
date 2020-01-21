@@ -1,6 +1,6 @@
 import {Navigation} from 'react-native-navigation';
-import {appScreens, appButtons} from 'appNavigation';
-import appColors from 'utils/appColors';
+import {appScreens, appButtons} from './index';
+import appColors from '../utils/appColors';
 import prepareIcons from './icons';
 
 const goDashBoardScreen = async () => {
@@ -13,7 +13,6 @@ const goDashBoardScreen = async () => {
             component: {
               id: appScreens.dashboardScreen,
               name: appScreens.dashboardScreen,
-              alignment: 'center',
               options: {
                 topBar: {
                   elevation: 0,
