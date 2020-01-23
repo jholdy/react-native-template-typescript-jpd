@@ -1,7 +1,7 @@
-import 'config/ReactotronConfig';
-import registerScreens, {appScreens} from 'appNavigation/index';
+import './src/config/ReactotronConfig';
+import registerScreens, {appScreens} from './src/appNavigation/index';
 import {Navigation} from 'react-native-navigation';
-import appColors from 'utils/appColors';
+import appColors from './src/utils/appColors';
 
 registerScreens();
 
