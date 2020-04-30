@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": "@react-native-community",
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json"
+  },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off"
+  }
+}

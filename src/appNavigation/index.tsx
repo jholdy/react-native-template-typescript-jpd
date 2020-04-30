@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { Platform } from 'react-native';
-import { Navigation } from 'react-native-navigation';
+import React, {Component} from 'react';
+import {Platform} from 'react-native';
+import {Navigation} from 'react-native-navigation';
 
-import AppStoreProvider from '../store/AppStoreProvider';
+import AppStoreProvider from 'store/AppStoreProvider';
 
-import LoginScreen from '../screens/LoginScreen';
-import DashboardScreen from '../screens/DashboardScreen';
+import LoginScreen from 'screens/LoginScreen';
+import DashboardScreen from 'screens/DashboardScreen';
 
 export const isAndroid = Platform.OS === 'android';
 
@@ -29,13 +29,13 @@ export const appScreens = {
   dashboardScreen: 'dashboardScreen',
 };
 
-export default function() {
+export default function () {
   Navigation.registerComponent(appScreens.loginScreen, () =>
-    WrapComponent(LoginScreen)
+    WrapComponent(LoginScreen),
   );
 
   Navigation.registerComponent(appScreens.dashboardScreen, () =>
-    WrapComponent(DashboardScreen)
+    WrapComponent(DashboardScreen),
   );
 
   console.tron.log('Register all routes.');

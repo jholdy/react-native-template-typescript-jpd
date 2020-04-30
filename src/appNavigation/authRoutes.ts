@@ -1,6 +1,6 @@
 import {Navigation} from 'react-native-navigation';
 import {appScreens, appButtons} from './index';
-import appColors from '../utils/appColors';
+import appColors from 'utils/appColors';
 import prepareIcons from './icons';
 
 const goDashBoardScreen = async () => {
